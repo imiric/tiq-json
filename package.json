@@ -1,0 +1,33 @@
+{
+  "name": "tiq-json",
+  "version": "0.0.1",
+  "description": "JSON storage plugin for tiq",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imiric/tiq-json"
+  },
+  "keywords": [
+    "tiq",
+    "plugin",
+    "store",
+    "json",
+    "file"
+  ],
+  "author": "Ivan Mirić <imiric@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imiric/tiq-json/issues"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "mkdirp": "~0.5.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}
